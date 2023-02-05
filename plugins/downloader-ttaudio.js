@@ -34,12 +34,13 @@ const time = moment.tz('Asia/Jakarta').format('HH')
   })
   let bear = '9b95802c6f20'
   let bearr = 'danzz'
-  let url = await fetch(`https://saipulanuar.ga/api/download/tiktok?apikey=${bearr}&url=${args[0]}`)
+  let url = await fetch(`https://saipulanuar.ga/api/download/tiktok?url=${args[0]}`)
   let json = await url.json()
     if (url.status !== 200) throw await url.text()
     if (!json.status) throw json
   let txt = `🚀 *Link:* ${await (await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}`
-  await conn.sendFile(m.chat, json.result.audio, 'tiktokaudio.mp3', `
+  await conn.sendFile(m.chat, json.result.audio_original, 'tiktokaudio.mp3', `
+┏┉━━━━━━━━━━━❏
 ┏┉━━━━━━━━━━━❏
 ┆ *TIKTOK MP3*
 ├┈┈┈┈┈┈┈┈┈┈┈
