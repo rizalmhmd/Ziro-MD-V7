@@ -2,20 +2,15 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix, command, args }) => {
    if (!args[0]) return m.reply(`Masukan Url TikTok !`)
-   let rest = await fetch(`https://malesin.xyz/tiktok?url=${args[0]}`)
-   let res = await rest.json()
-   let { title, author, video, audio, videoWM } = res
-   let kon = `${title}
-
-Author : ${author}
-
-Powered by © #${wm}`
-m.reply(wait)
-await conn.sendFile(m.chat, video, 'tt.mp4', kon, m)
+   let res = await fetch(`https://saipulanuar.ga/api/download/tiktok?url=${args[0]}`)
+  if (!res.ok) throw await res.text()
+let json = await res.json()
+   let cap = `Cara Simpan\n\n1. Download Dulu Vidio Nya Kalau Sudah\n2. Masuk Ke Dalam Vidio Nya\n3. Lalu Tekan Titik3 Pojok Kanan Atas\n4. Lalu Pilih Yang Ada Bacaan  Simpan `
+await conn.sendButtonVid(m.chat, json.result.video_original, cap, wm, 'ᴀᴜᴅɪᴏ', `.tiktokaudio ${args}`, m)
 }
-handler.help = ['tiktoknowm', 'ttnowm']
+handler.help = ['ttnowm']
 handler.tags = ['downloader']
-handler.command = /^(ttnowm|tiktoknowm)$/i
+handler.command = /^(ttnowm)$/i
 
 handler.premium = false
 handler.limit = true 
