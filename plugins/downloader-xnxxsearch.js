@@ -4,12 +4,14 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 	let user = global.db.data.users[m.sender]
 	if (user.age < 18) throw 'umur kamu belum cukup dek!\nawas jangan nonton beginian ya dek, nanti aku bilangin ke ibu kamu loh ><';
 	try {
-		let res = await fetch(`https://restapi.frteam.xyz/xnxxsearch?query=${text}&apikey=085759681568`)
+		let res = await fetch(`https://api.lolhuman.xyz/api/xnxxsearch?apikey=Fikrii&query=${text}`)
 		let rest = await res.json()
 		let cap = `Hasil Pencarian Dari ${text}\n`
 	for (let v of rest.result) {
 	 cap += `• *Title :* ${v.title}
-• *Info :* ${v.info}
+• *Uploader :* ${v.uploader}
+• *Duration :* ${v.duration}
+• *Views :* ${v.views}
 • *Link :* ${v.link}
 `
 cap +=  '\n' + '••••••••••••••••••••••••' + '\n'
@@ -20,12 +22,12 @@ cap +=  '\n' + '•••••••••••••••••••••�
 		throw e;
 	}
 }
-handler.help = ["xnxx", "xnxxsearch"].map(v => v + ' <query>')
+handler.help = ["xnxxsearch"].map(v => v + ' <query>')
 handler.tags = ['downloader', 'premium']
 handler.command = /^xnxx(s?earch)?$/i
 
 handler.register = true
 handler.premium = true
-handler.private = true
+handler.private = false
 
 export default handler
