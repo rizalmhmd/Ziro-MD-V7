@@ -5,28 +5,28 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 	let user = global.db.data.users[m.sender]
 	if (user.age < 18) throw 'umur kamu belum cukup dek!';
 	try {
-		let res = await fetch(`https://restapi.frteam.xyz/xnxxdl?url=${text}&apikey=085759681568`)
-		if (res.status !== 200) throw 'Nice'
-    let w = await res.json()
-    let x = w.result
-    let caption = `*${htki} xnxxdl ${htka}*
-*💌 title:* ${x.title}
-*🗂️ info:* ${x.info}
-*📊 duration:* ${x.duration}
-    `
-    conn.send2ButtonImg(m.chat, x.image, caption, author,
-'LOW', '.xnxxvid ' + x.files.low,
-'HIGH', '.xnxxvid ' + x.files.high
-, m)
+		let json = await fetch(`https://api.lolhuman.xyz/api/xnxx?apikey=Fikrii&url=${text}`)
+  let x = await json.json()
+  let caption = `*Title:* ${x.result.title}
+  *duration:* ${x.result.duration}
+  *view:* ${x.result.view}
+  *rating:* ${x.result.rating}
+  *like:* ${x.result.like}
+  *dislike:* ${x.result.dislike}
+  *comment:* ${x.result.comment}
+  *tag:* ${Array.from(x.result.tag)}
+  *description:* ${x.result.description}
+  `
+conn.sendFile(m.chat, x.result.link[1].link, 'asupan.mp4', caption, m)
 	} catch (e) {
 		throw e;
 	}
 }
-handler.help = ["xnxxdl", "dlxnxx"].map(v => v + ' <url>')
+handler.help = ["xnxxdl"].map(v => v + ' <url>')
 handler.tags = ["downloader", 'premium']
-handler.command = /^(xnxxdl|dlxnxx)$/i
+handler.command = /^(xnxxdl)$/i
 handler.register = true
 handler.premium = true
-handler.private = true
+handler.private = false
 
 export default handler
