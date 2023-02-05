@@ -25,7 +25,7 @@ throw e
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktokv22)$/i
-handler.level = 30
+
 
 export default handler
 
