@@ -50,19 +50,19 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6281228070013', '𝑍𝐼𝑅𝑂-𝑀𝐷', true],
+['6281333154367', '𝚉𝚊𝚕𝚕', true],
 ]
 global.autoketik = true //status auto mengetik (auto typing)
 global.available = true //status online (online)
 // Other
-global.mods = ['621228070013']
-global.prems = ['6281228070013']
-global.nomorbot = '62882007157628'
-global.nameown = '𝑍𝐼𝑅𝑂-𝑀𝐷'
-global.nomorown = '6281228070013'
-global.nomorown1 = '6281228070013'
+global.mods = ['6281333154367']
+global.prems = ['6281333154367']
+global.nomorbot = '6287784028546'
+global.nameown = '𝚉𝚊𝚕𝚕'
+global.nomorown = '6281333154367'
+global.nomorown1 = '6281333154367'
 global.nomorown2 = '6281228070013'
-global.nomorwa = '081228070013'
+global.nomorwa = '081333154367'
 global.limitawal = {
 
     premium: "Infinity",
@@ -74,48 +74,48 @@ global.limitawal = {
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.gcname = '𝑍𝐼𝑅𝑂-𝑀𝐷'//nama group kalian
-global.author = '𝗭𝗶𝗿𝗼-𝗠𝗗' //ganti aja cuyyy
-global.namebot = '​𝗭𝗶𝗿𝗼𝗕𝗼𝘁𝘇-𝗠𝗗' //nama bot luh
-global.wm = '© 𝑍𝐼𝑅𝑂-𝑀𝐷' //ganti aja
+global.gcname = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕'//nama group kalian
+global.author = '𝚉𝚊𝚕𝚕' //ganti aja cuyyy
+global.namebot = '​𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕' //nama bot luh
+global.wm = '© 𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕' //ganti aja
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg' //bebas
-global.wm = '𝑍𝐼𝑅𝑂-𝑀𝐷 ' //wm nyaa kocak
+global.wm = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕 ' //wm nyaa kocak
 global.watermark = wm //bebas
-global.wm2 = '𝑍𝐼𝑅𝑂-𝑀𝐷' //ganti ajaa
-global.wm3 = '𝗭𝗶𝗿𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 by 𝑍𝐼𝑅𝑂-𝑀𝐷' // ganti jugaa
+global.wm2 = '𝚉𝚊𝚕𝚕' //ganti ajaa
+global.wm3 = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕 by 𝚉𝚊𝚕𝚕' // ganti jugaa
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`//ga usah dehhh 
 global.bottime = `T I M E : ${wktuwib}` //ini juga ga usah 
-global.titlebot = `𝑍𝐼𝑅𝑂-𝑀𝐷 | 𝑍𝐼𝑅𝑂-𝑀𝐷` //ganti aja
-global.stickpack = '𝑍𝐼𝑅𝑂-𝑀𝐷' //ganti 
-global.stickauth = `© 𝑍𝐼𝑅𝑂-𝑀𝐷` //gantii 
+global.titlebot = `𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕 | by 𝚉𝚊𝚕𝚕` //ganti aja
+global.stickpack = 𝚉𝚊𝚕𝚕' //ganti 
+global.stickauth = `© 𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕` //gantii 
 global.week = `${week} ${date}` //Gak usah
 global.wibb = `${wktuwib}` // Gak usah 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= '𝑍𝐼𝑅𝑂-𝑀𝐷' //ganti 
-global.nameown2 = '𝑍𝐼𝑅𝑂-𝑀𝐷' //ganti 
+global.nameown1= 'by 𝚉𝚊𝚕𝚕' //ganti 
+global.nameown2 = 'Rozz' //ganti 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Tunggu Sebentar Kak...'
 global.lynk = 'https://chat.whatsapp.com/LMoogYB7Fjc3v1ep9GwBG2'//ganti jadi link gc luh
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/l4c1f2r' //ganti jadi ig mu
-global.sgh = 'https://github.com/Lucife-Putra' //github
+global.sig = 'https://instagram.com/zallzall02' //ganti jadi ig mu
+global.sgh = 'https://github.com/rizalmhmd' //github
 global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff' //group whatsapp
 global.gcwangsaf = 'https://chat.whatsapp.com/LMoogYB7Fjc3v1ep9GwBG2' //Group wa juga 
 global.fakeyt = 'https://youtube.com/@Ziro-MD_Official' //Yt jika punya
 global.sdc = '-' //discord klo ga punya ga usah biarin aja
 global.sfb = 'https://www.facebook.com/' // facebook
 global.snh = 'https://youtube.com/@Ziro-MD_Official' //yt klo punya 
-global.wame = 'https://api.whatsapp.com/send?phone=+6283863727401' //Tautan Wa Kalian
+global.wame = 'https://api.whatsapp.com/send?phone=+6281333154367' //Tautan Wa Kalian
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = 'Chat Owner Kak ><' //Isi aja klo punya 
-global.povo = 'Chat Owner Kak ><' //Isi Aja klo punya 
-global.pgopay = 'Chat Owner Kak ><' //Isi aja klo punya 
-global.plinkaja = 'Chat Owner Kak ><' //link aja,isi Klo punya
-global.ppulsa = 'Chat Owner Kak ><' //Isi aja klo punya 
-global.ppulsa2 = 'Chat Owner Kak ><' //Isi aja klo punya 
+global.pdana = '081333154367' //Isi aja klo punya 
+global.povo = '081333154367' //Isi Aja klo punya 
+global.pgopay = '-' //Isi aja klo punya 
+global.plinkaja = '-' //link aja,isi Klo punya
+global.ppulsa = '081333154367' //Isi aja klo punya 
+global.ppulsa2 = '081327238906' //Isi aja klo punya 
 global.psaweria = 'https://telegra.ph/file/98338a583efeb3d34a70b.jpg' //Ganti aja ini Link gambar QR
 
 //bebas cuyyy yg atas mahh 
@@ -559,10 +559,10 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = '?????????'
-global.urlnya = "https://www.instagram.com/l4c1f2r"
+global.urlnya = "https://www.instagram.com/zallzall02"
 global.dtc = '???? ?????'
-global.phn = '0812-2807-0013'
-global.ultahowner = 'JULI 12 2023' //ultah luh 😭
+global.phn = '0813 3315-4367'
+global.ultahowner = 'SEPTEMBER 25 2023' //ultah luh 😭
 
 
 //?? 肓??????帕 ? JNGN DI UBAH ? 帕??????肓 ??
